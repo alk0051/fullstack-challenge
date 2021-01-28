@@ -6,19 +6,19 @@
 #### Instale o <a href="https://www.docker.com/">Docker</a> em sua maquina e execute os seguintes comandos:
 Cria um container docker:
 ```bash 
-docker run --name fullstackchall -e POSTGRES_PASSWORD=clubpetro -d -p 5432:5432 postgres
+# docker run --name fullstackchall -e POSTGRES_PASSWORD=clubpetro -d -p 5432:5432 postgres
 ```
 Incia o container criado:
 ```bash 
-docker start fullstackchall
+# docker start fullstackchall
 ```
 Entra no terminal do postgres:
 ```bash
-psql -U postgres
+# psql -U postgres
 ```
 Cria um banco de dados chamado places:
 ```bash
-postgres=# CREATE DATABASE places;
+psql=# CREATE DATABASE places;
 ```
 
 
