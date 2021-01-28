@@ -18,7 +18,7 @@ psql -U postgres
 ```
 Cria um banco de dados chamado places:
 ```bash
-psql= CREATE DATABASE places;
+CREATE DATABASE places;
 ```
 
 
