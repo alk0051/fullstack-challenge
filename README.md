@@ -5,7 +5,7 @@
 
 #### Faça um clone desse repositorio em seu computador
 #### Navegue usando seu terminal ate a pasta do projeto 
-#### Execute o comando `yarn` e em seguida de `yarn start` na pasta backend e com outro terminal execute os mesmos comandos na pasta frontend
+#### Na pasta backend execute o comando `yarn` e em seguida `yarn start` e com outro terminal execute os mesmos comandos na pasta frontend
 #### A aplicação vai abrir no endereço ```localhost:3000``` do seu navegador.
 
 &nbsp;
