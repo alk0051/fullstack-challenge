@@ -96,6 +96,7 @@ const Landing: React.FC = () => {
     if (allDataFilled === true) {
       if (checkCardExist === false) {
         await api.post('/places', data);
+        window.location.reload()
       } else {
         alert(
           'Ops! Parece que você já adicionou um cartão com esse país e local...',
