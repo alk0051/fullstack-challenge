@@ -51,6 +51,7 @@ const CardTemplate: React.FC<ICard> = ({
     };
 
     await api.put(`places/${cardId}`, updatedData);
+    window.location.reload();
   };
 
   const handleRemove = async (cardId: string) => {
